@@ -4,20 +4,15 @@ author: "CodesRUs"
 date: "10/17/2021"
 output: html_document
 ---
+### Intro
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
 
-## R Markdown
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+### Methods 
+To assess the effect of physical activity on body temperature, axillary temperature readings before and after a period of physical activity were recorded from all four group members using a DHT11 sensor connected to Arduino (fig.1). For each member, body temperatures at inactive states and after 5 minutes of jumping jack were recorded for 100 seconds. Each member’s mean temperature was plotted with +/- 1 standard deviation, and differences between each members’ temperature changes were compared. 
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
 
-```{r cars}
-summary(cars)
-```
+
 
 ## Including Plots
 
